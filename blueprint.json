@@ -15,12 +15,22 @@
         "level": "alpha",
         "patch": 0
       }
-    }
+    },
+    "timestamp": "2019-07-18T10:31:44+10:00"
   },
   "software": {
     "base": {
+      "name": "cadvisor",
+      "publisher_namespace": "EnginesSystem",
+      "type_path": "cadvisor",
+      "deployment_type": "web",
+      "http_protocol": "https_only",
       "default_stop_timeout": 0,
-      "restart_attempts": 0
+      "restart_attempts": 0,
+      "create_user": "0"
+    },
+    "disposition": {
+      "stopped_ok": true
     }
   }
 }
